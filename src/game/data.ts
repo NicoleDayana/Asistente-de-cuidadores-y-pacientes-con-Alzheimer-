@@ -22,7 +22,7 @@ export const MEMORIES: Memory[] = [
     relation: "tu hija",
     caption: "Vive contigo y te cuida cada día. Le encanta tu tortilla de patatas.",
     emoji: "👩",
-    image: "images/memory-family.jpg",
+    image: `${import.meta.env.BASE_URL}images/memory-family.jpg`,
   },
   {
     id: "casa",
@@ -31,7 +31,7 @@ export const MEMORIES: Memory[] = [
     relation: "donde vives",
     caption: "La puerta azul, el geranio en la ventana. Aquí llevas 40 años.",
     emoji: "🏠",
-    image: "images/memory-home.jpg",
+    image: `${import.meta.env.BASE_URL}images/memory-home.jpg`,
   },
   {
     id: "toby",
@@ -40,7 +40,7 @@ export const MEMORIES: Memory[] = [
     relation: "tu perro",
     caption: "Te espera en el jardín. Paseáis juntos por el Parque del Lago.",
     emoji: "🐕",
-    image: "images/memory-garden.jpg",
+    image: `${import.meta.env.BASE_URL}images/memory-garden.jpg`,
   },
   {
     id: "lucia",
